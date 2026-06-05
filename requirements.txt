@@ -1,0 +1,35 @@
+# 水果识别模型 - 依赖包
+# 安装命令: pip install -r requirements.txt
+
+# PyTorch (GPU版本请到官网获取安装命令)
+# https://pytorch.org/get-started/locally/
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 图像处理
+Pillow>=9.0.0
+
+# 数据可视化
+matplotlib>=3.5.0
+
+# 进度条
+tqdm>=4.60.0
+
+# ==================== 新增依赖（ConvNeXtV2/TTA） ====================
+# PyTorch 图像模型库（ConvNeXtV2、EfficientViT 等 1000+ 预训练模型）
+timm>=1.0.0
+
+# 高级张量操作
+einops>=0.7.0
+
+# 高级优化器
+torch-optimizer>=0.3.0
+
+# OpenCV（摄像头实时推理）
+opencv-python>=4.8.0
+
+# 数值计算
+numpy>=1.24.0
+
+# TensorBoard 训练可视化
+tensorboard>=2.14.0

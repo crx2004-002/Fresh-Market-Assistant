@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large model files (keep only small ones)
+checkpoints/best_model.pth
+checkpoints/best_model_backup_94.82.pth
+checkpoints/last_model.pth
+checkpoints/*.safetensors
+checkpoints/dinov2_vitb14/
+checkpoints/mobilenetv2/
+checkpoints/tf_mobilenetv2/
+checkpoints/mobilenetv3_small/*.pth
+
+# Dataset (too large)
+dataset/
+dataset_merged/
+dataset_fruit_classification/
+
+# Temporary files
+*.log
+*.tmp
+low_res_images.json
+eval_output.txt
+
+# TensorBoard logs
+logs/tensorboard/
+
+# Training images (can regenerate)
+logs/training_images/
